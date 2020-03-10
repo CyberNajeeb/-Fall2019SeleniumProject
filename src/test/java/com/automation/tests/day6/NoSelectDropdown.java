@@ -1,12 +1,8 @@
-package com.automation.tests.day2.day6;
+package com.automation.tests.day6;
 
-import com.automation.tests.day2.utilities.BrowserUtils;
-import com.automation.tests.day2.utilities.MethodsContainer;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-
-import java.util.List;
+import com.automation.tests.utilities.*;
+import org.openqa.selenium.*;
+import java.util.*;
 
 public class NoSelectDropdown {
     public static void main(String[] args) {

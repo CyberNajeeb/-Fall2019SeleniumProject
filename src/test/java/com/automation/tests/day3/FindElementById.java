@@ -1,6 +1,6 @@
-package com.automation.tests.day2.java_day3;
+package com.automation.tests.day3;
 
-import com.automation.tests.day2.utilities.MethodsContainer;
+import com.automation.tests.utilities.MethodsContainer;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;

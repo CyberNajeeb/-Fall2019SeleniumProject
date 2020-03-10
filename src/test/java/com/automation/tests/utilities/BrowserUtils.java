@@ -1,4 +1,4 @@
-package com.automation.tests.day2.utilities;
+package com.automation.tests.utilities;
 
 public class BrowserUtils {
 

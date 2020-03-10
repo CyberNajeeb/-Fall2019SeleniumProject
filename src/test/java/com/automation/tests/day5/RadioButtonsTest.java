@@ -1,7 +1,7 @@
-package com.automation.tests.day2.day5;
+package com.automation.tests.day5;
 
-import com.automation.tests.day2.utilities.BrowserUtils;
-import com.automation.tests.day2.utilities.MethodsContainer;
+import com.automation.tests.utilities.BrowserUtils;
+import com.automation.tests.utilities.MethodsContainer;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

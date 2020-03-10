@@ -1,13 +1,8 @@
-package com.automation.tests.day2.day6;
+package com.automation.tests.day6;
 
-import com.automation.tests.day2.utilities.BrowserUtils;
-import com.automation.tests.day2.utilities.MethodsContainer;
-import io.github.bonigarcia.wdm.WebDriverManager;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import com.automation.tests.utilities.*;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.Select;
-
 import java.util.List;
 
 public class SelectByText {
@@ -16,7 +11,8 @@ public class SelectByText {
         WebDriver driver = MethodsContainer.createDriver("chrome");
         driver.get("http://practice.cybertekschool.com/dropdown");
         BrowserUtils.wait(3);
-        //create a webelement object for drop-down first
+
+        //create a webElement object for drop-down first
         WebElement simpleDropdown = driver.findElement(By.id("dropdown"));
         //provide weblement object into constructor
         Select selectSimpleDropdown = new Select(simpleDropdown);

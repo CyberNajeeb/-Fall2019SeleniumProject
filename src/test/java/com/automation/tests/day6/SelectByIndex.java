@@ -1,9 +1,7 @@
-package com.automation.tests.day2.day6;
+package com.automation.tests.day6;
 
-import com.automation.tests.day2.utilities.BrowserUtils;
-import com.automation.tests.day2.utilities.MethodsContainer;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
+import com.automation.tests.utilities.*;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.Select;
 
 public class SelectByIndex {

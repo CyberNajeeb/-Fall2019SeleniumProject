@@ -1,11 +1,10 @@
-package com.automation.tests.day2.day6;
+package com.automation.tests.day6;
 
-import com.automation.tests.day2.utilities.BrowserUtils;
-import com.automation.tests.day2.utilities.MethodsContainer;
+import com.automation.tests.utilities.BrowserUtils;
+import com.automation.tests.utilities.MethodsContainer;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.Select;
 
 import java.util.List;
 
@@ -23,7 +22,7 @@ public class Alerts {
         String popUpText = driver.switchTo().alert().getText();
         System.out.println("popUpText = " + popUpText);
         driver.switchTo().alert().accept();
-        String expected = "You successfuly clicked an alert";
+        String expected = "You successfully clicked an alert";
         String actual = driver.findElement(By.id("result")).getText();
 
         if (expected.equals(actual)){
