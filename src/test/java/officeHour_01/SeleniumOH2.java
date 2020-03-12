@@ -1,4 +1,4 @@
-package officeHour_01.officeHour02;
+package officeHour_01;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
