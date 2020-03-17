@@ -19,6 +19,7 @@ public class FindElementsTest {
             System.out.println(link.getText());
             System.out.println(link.getAttribute("href"));
         }
+        //git remote add origin https://github.com/CyberNajeeb/Fall2019SeleniumProject.git
         BrowserUtils.wait(2);
         driver.close();
     }
