@@ -14,6 +14,7 @@ public class MethodsContainer {
 
     public static WebDriver createDriver(String browserName) {
         if (browserName.equalsIgnoreCase("chrome")) {
+            //System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/chromedriver");
             WebDriverManager.chromedriver().version("79").setup();
             return new ChromeDriver();
         } else if (browserName.equalsIgnoreCase("firefox")){
